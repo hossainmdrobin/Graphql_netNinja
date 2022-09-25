@@ -3,7 +3,7 @@ const {Schema, model} = require('mongoose')
 const authorSchema = new Schema({
     name: String,
     genre: String,
-    age: String
+    author: String
 });
 
 module.exports = model("Author", authorSchema);
